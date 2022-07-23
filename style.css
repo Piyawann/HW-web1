@@ -1,0 +1,38 @@
+html, body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #FFFBE9;
+    margin: 0;
+    padding: 0;
+}
+.box1 {
+    background-color: #CEAB93;
+    padding: 30px;
+    margin: 20px;
+}
+.box2 {
+    background-color: #FCFFE7;
+    padding: 10px;
+    margin: 20px;
+}
+.flexbox{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    display: block;
+    box-sizing: border-box;
+    width: 30%;
+}
+.names{
+    max-width: 500px;
+    padding-left: 150px;
+    font-size: 100%;
+}
+.imagee{
+    width: 80%;
+    padding-left: 50px;
+    max-width: 100%;
+}
